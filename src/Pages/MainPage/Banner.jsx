@@ -1,5 +1,4 @@
-import book from '../../Assets/Images/book.png';
-import background from '../../Assets/Images/background.png';
+import {images} from '../../Config/Images/images';
 
 import '../../Assets/Styles/main.css';
 
@@ -7,8 +6,8 @@ export default function Banner() {
 
     return (
         <div>
-            <img src={background} className="object-cover h-100 md:h-100 xl:h-110 2xl:h-128 w-full absolute brightness-75" alt=""/>
-            <div className="relative mx-auto lg:mx-24 max-w-screen-xl lg:max-w-screen-md px-4 py-40 md:pt-48 sm:px-6 lg:px-8 md:pb-10">
+            <img src={images.background} className="object-cover h-100 md:h-100 xl:h-110 2xl:h-128 w-full absolute brightness-75" alt=""/>
+            <div className="relative mx-auto lg:mx-24 max-w-screen-xl lg:max-w-screen-md px-4 py-40 md:pt-48 sm:px-6 lg:px-8 md:pb-15">
                 <div className="text-3xl font-extrabold sm:text-5x text-white lg:text-6xl">
                     <h1>Lesson Link</h1>
                 </div>
@@ -22,7 +21,7 @@ export default function Banner() {
                     </h3>
                 </div>
             </div>
-            <img className="w-2/3 z-40 lg:w-2/5 relative" src={book} alt="Logo"/>;
+            <img className="w-2/3 z-40 lg:w-2/5 relative float-right" src={images.book} alt="Logo"/>;
         </div>
     )
 

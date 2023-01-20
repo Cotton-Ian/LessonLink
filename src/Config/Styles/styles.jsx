@@ -1,0 +1,1 @@
+export const styleDirectory = '../../Assets/Images/';

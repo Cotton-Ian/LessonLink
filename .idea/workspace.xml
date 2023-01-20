@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4a10804-b24c-42a7-8bd2-be3a818bb1f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layouts/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/MainPage/Banner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Config/Images/images.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Config/Styles/styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/MainPage/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/MainPage/Banner.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674228195664</updated>
       <workItem from="1674228198235" duration="164000" />
-      <workItem from="1674228400754" duration="9106000" />
+      <workItem from="1674228400754" duration="11209000" />
     </task>
     <servers />
   </component>
