@@ -1,10 +1,13 @@
 import logo from './logo.svg'
 import './App.css'
-import Footer from './Layouts/Footer/Footer'
+import CourseList from './Components/Course/CourseList'
 
-console.log('Hello World')
 function App() {
-    return <Footer />
+    return (
+        <div className="App">
+            <CourseList />
+        </div>
+    )
 }
 
 export default App
