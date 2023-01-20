@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import InformationBox from './Components/InformationBox'
 import QuestionBox from './Components/QuestionBox'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             reponse:
                 "Un composant React est une fonction ou une classe qui prend des entrées appelées props et renvoie un élément React qui décrit ce que doit apparaître à l'écran.",
             color: '#00c774',
+            type: 'multiple',
         },
         {
             id: '2',
@@ -22,6 +24,7 @@ function App() {
             reponse:
                 "Une classe React est une fonction ou une classe qui prend des entrées appelées props et renvoie un élément React qui décrit ce que doit apparaître à l'écran.",
             color: '#0074c7',
+            type: 'multiple',
         },
         {
             id: '3',
@@ -29,6 +32,7 @@ function App() {
             reponse:
                 "Une fonction React est une fonction ou une classe qui prend des entrées appelées props et renvoie un élément React qui décrit ce que doit apparaître à l'écran.",
             color: '#eb2639',
+            type: 'single',
         },
     ])
 
@@ -41,6 +45,7 @@ function App() {
                     <QuestionBox key={question.id} questionInfo={question} />
                 ))}
             </div>
+            <InformationBox questions={questions}/>
         </div>
     )
 }
